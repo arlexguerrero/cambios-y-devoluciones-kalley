@@ -1,0 +1,146 @@
+.main{
+	background: rgb(224,224,224);
+background: linear-gradient(0deg, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 35%);
+}
+
+/*=========
+HERO BANNER
+==========*/
+
+@media (min-width: 320px){
+	
+	.hero-banner__text{
+	text-align: center;
+	font-size: 20px;
+		margin-top: 4%;
+		
+}
+	
+	.hero-banner__button a{
+	    display: inline-block;
+    background: #063B66;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 6px 26px;
+	margin: 32px 7% 0px;
+}
+
+	.hero-banner{
+	padding-top: 24px;
+	padding-bottom: 24px;	
+	}
+}
+
+.hero-banner{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.hero-banner__text{
+	font-size: 45px;
+	text-align: left;
+	color: #818181;
+	line-height: 93%;
+	margin-top: 25%;
+	
+}
+
+
+
+.hero-banner__text__withe{
+	color: white;
+	background: #818181;
+	line-height: 1.2;
+
+}
+
+	.hero-banner__button a{
+	    display: inline-block;
+    background: #063B66;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 6px 26px;
+	margin-top: 32px;
+}
+
+.hero-banner__button a{
+	    display: inline-block;
+    background: #063B66;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 6px 26px;
+	margin-top: 32px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+@media (max-width: 320px){
+	
+	.hero-banner__text{
+	text-align: center;
+	font-size: 20px;
+		margin-top: 4%;
+		
+}
+	
+	.hero-banner__button a{
+	    display: inline-block;
+    background: #063B66;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 6px 26px;
+	margin: 32px 7% 0px;
+		color: #fff;
+}
+
+	.hero-banner{
+	padding-top: 24px;
+	padding-bottom: 24px;	
+	}
+}
+
+/*=========
+GARANTIA
+==========*/
+
+.garantias{
+	
+		padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.garantia{
+	background: #fff;
+	border: solid 2px #121A82;
+	height: 43vh;
+	max-height: 260px;
+}
+
+.garantia__titulo{
+	    text-align: center;
+    display: block;
+    width: 64%;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 18px;
+    margin: -14px auto;
+    box-shadow: 0px 2px 7px 1px rgb(0 0 0 / 60%);
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #121A82;
+}
+
+
+.garantia__parrafo{
+	padding: 24px 16px 20px 16px;
+	line-height: 190%;
+	font-size: 14px;
+}
+
+.no-garantia{
+	background: #EBEBEB;
+	border: solid 2px #121A82;
+	height: 43vh;
+	max-height: 260px;
+}
